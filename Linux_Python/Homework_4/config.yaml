@@ -1,0 +1,17 @@
+# настройки подключения по SSH
+host: 0.0.0.0
+port: 22
+user: user2
+password: 1111
+
+# настройки для тестов 7Z
+user_home: /home/user2
+working_folder: folder_in
+folder_in: ${user_home}/${working_folder}
+archive: test.7z
+archive_error: test-error.7z
+folder_ext: ${user_home}/folder_ext
+folder_ext2: ${user_home}/folder_ext2
+count: 2
+bs: 1M
+type: 7z

@@ -1,9 +1,4 @@
-connection:
-  host: https://test-stand.gb.ru/
+- host: https://test-stand.gb.ru/gateway/login
   password: "116c74cc50"
   username: "Kukumber@"
 
-post:
-  title: 'hfdghfdg'
-  description: 'hfghfg'
-  content: 'dfgdfhgdf'
